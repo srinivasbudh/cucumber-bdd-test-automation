@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@Test",
+        tags = "@Regression",
         features = {"src/test/java/features"},
         glue = {"com.automation.steps"},
         plugin = {"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:"}
